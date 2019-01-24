@@ -1,0 +1,15 @@
+{
+    "name": "woolf/test",
+    "description": "test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "darkwoolf10",
+            "email": "woolftreuser@yandex.ru"
+        }
+    ],
+    "require": {
+      "ext-dom": "*",
+        "ext-json": "*"
+    }
+}
