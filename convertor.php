@@ -4,8 +4,9 @@ $access_key = 'bb305be323577f320feda39f319bfc7e';
 $from = 'USD';
 $to = $_GET['currency'];
 $amount = $_GET['amount'];
+$date = date('Y-m-d');
 
-$url = 'http://apilayer.net/api/historical?access_key='.$access_key.'&date=2005-02-01';
+$url = 'http://apilayer.net/api/historical?access_key='.$access_key.'&date='.$date;
 
 $result = file_get_contents($url);
 $result = json_decode($result);
